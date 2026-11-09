@@ -168,3 +168,9 @@ uv run python predict_test.py https://your-service.onrender.com
 ```
 
 On the free plan the service sleeps when idle, so the first request can take up to a minute.
+
+### Deployed service
+
+The service is available at <https://hotel-booking-cancellation-tni3.onrender.com/docs>, where requests can be tried in the browser.
+
+![Request to the deployed service](images/render-test.png)
