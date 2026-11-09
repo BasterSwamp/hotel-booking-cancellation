@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: hotel-booking-cancellation
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
